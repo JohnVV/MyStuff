@@ -50,6 +50,8 @@ updated to use multi CPU cores
 
 updated the fft code to use the current fftw3_boost 
 
+removed the antique image formats and replaced them with libtiff ( well yes this has been around too )
+
 
 
 
