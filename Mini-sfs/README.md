@@ -53,6 +53,21 @@ updated the fft code to use the current fftw3_boost
 removed the antique image formats and replaced them with libtiff ( well yes this has been around too )
 
 
+--------- notes -------
+
+for viewing 32 bit data ( a 32 bit tiff image) 
+
+that IS NOT from 0 to 1 
+( gimp and photoshop NEED!!!!! the data to be from 0 to 1) 
+
+the output tiff in the testimages folder is ( -38001.39 to 28710.8 )
+
+i use "nip2" a gui to the "vips" image library 
+
+https://github.com/libvips/nip2
+
+https://github.com/libvips/libvips
+
 
 
 
