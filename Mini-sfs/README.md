@@ -36,6 +36,21 @@ Example:
 
 ./Mini_sfs -e 35.0 -a 90.0 -l 1.5 -n 50 PIA21750.tiff PIA21750.DEM.tiff
 
+--------------------------------------------------------
+original code from this 2002/3 paper:
+
+"Derivation of surface topography and terrain parameters from single satellite image using shape-from-shading technique"
+
+https://www.sciencedirect.com/science/article/abs/pii/S0098300403001389#preview-section-introduction
+
+
+updated to the current gcc
+
+updated to use multi CPU cores  
+
+updated the fft code to use the current fftw3_boost 
+
+
 
 
 
